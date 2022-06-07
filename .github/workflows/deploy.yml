@@ -9,9 +9,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.16a9431e-2f95-4f13-9734-b72b063350cc}}
-          heroku_app_name: ${{secrets.nehapatil}}
-          heroku_email: ${{secrets.kunalgawade0707@gmail.com}}
+          heroku_api_key: ${{secrets.heroku.com}}
+          heroku_app_name: ${{secrets.heroku.com}}
+          heroku_email: ${{secrets.heroku.com}}
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
